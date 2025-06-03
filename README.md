@@ -1,4 +1,4 @@
-# DesbloqueioXiaomi
+# NqlMiCommunity
 
 Script Python para automação de solicitações de desbloqueio de bootloader em dispositivos Xiaomi, utilizando a API oficial da Xiaomi. O script aguarda o horário de pico (23:57 CST, equivalente a 12:57 BRT) para maximizar as chances de sucesso.
 
@@ -29,7 +29,7 @@ Script Python para automação de solicitações de desbloqueio de bootloader em
 2. **Baixar o Script**:
    - No Termux, execute:
      ```bash
-     curl -sSL <URL_DO_REPOSITÓRIO>/raw/main/NqlMiCommunity.py -o "$PREFIX/bin/nqlmi" && chmod +x "$PREFIX/bin/nqlmi"
+     curl -sSL https://raw.githubusercontent.com/niiquell/NqlMiCommunity/refs/heads/main/NqlMiCommunity.py -o "$PREFIX/bin/nqlmi" && chmod +x "$PREFIX/bin/nqlmi"
      ```
      
 3. **Executar o Script**:
