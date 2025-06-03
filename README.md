@@ -38,10 +38,18 @@ Script Python para automação de solicitações de desbloqueio de bootloader em
    - O script exibe informações da conta (dias registrados, nível, pontos).
    - Ele tentará a solicitação automaticamente para cada conta no horário de pico até obter sucesso ou encontrar um erro definitivo.
 
+## Sobre o Menu:
+     - Adicionar até 5 contas Xiaomi (opção 1).
+     - Remover contas (opção 2).
+     - Listar contas registradas (opção 3).
+     - Iniciar solicitações de desbloqueio (opção 4).
+   - Insira usuário e senha para cada conta, e o código de verificação, se solicitado.
+   - O script aguardará o horário de pico (23:57 CST, 12:57 BRT) para fazer as solicitações.
+
 ## Riscos
 - **Segurança**:
   - O arquivo `dados_contas.json` armazena tokens de até 5 contas. Não Compartilhe o arquivo e Proteja seu dispositivo contra acesso não autorizado.
   - O uso de bots ou scripts automáticos pode ser contra as regras da Xiaomi.
 
 ## Créditos
-- (@Offici5l)[https://github.com/offici5l/MiCommunityTool] - Criador do script de inspiração que foi usado como base para o NqlMiCommunity.
+- [@Offici5l]([https://github.com/offici5l/MiCommunityTool) - Criador do script de inspiração que foi usado como base para o NqlMiCommunity.
