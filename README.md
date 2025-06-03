@@ -1,6 +1,6 @@
 # NqlMiCommunity
 
-Script Python para automação de solicitações de desbloqueio de bootloader em dispositivos Xiaomi. O script suporta até 5 contas e aguarda o horário de pico (23:57 CST, equivalente a 12:57 BRT) para maximizar as chances de sucesso.
+Script Python para automação de solicitações de desbloqueio de bootloader em dispositivos Xiaomi. O script suporta até 5 contas, estuda um horário estratégico às (23:57 CST, equivalente a 12:57 BRT) e solicita a permissão com o horário do resultado.
 
 ## Funcionalidades
 - Suporte para até 5 contas Xiaomi, com gerenciamento via menu interativo.
@@ -44,7 +44,8 @@ Script Python para automação de solicitações de desbloqueio de bootloader em
   - Listar contas registradas (opção 3).
   - Iniciar solicitações de desbloqueio (opção 4).
   - Insira usuário e senha para cada conta, e o código de verificação, se solicitado.
-  - O script aguardará o horário de pico (23:57 CST, 12:57 BRT) para fazer as solicitações.
+  - O script estudará um horário para fazer a solicitação às (23:57 CST, 12:57 BRT).
+  - O horário do resultado do estudo será o horário que a solicitação será executada.
 
 ## Riscos
 - **Segurança**:
