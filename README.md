@@ -28,7 +28,7 @@ Script Python para automação de solicitações de desbloqueio de bootloader em
 2. **Baixar o Script**:
    - No Termux, execute:
      ```bash
-     curl -sSL https://github.com/seu_usuario/DesbloqueioXiaomi/raw/main/desbloqueio_xiaomi.py -o "$PREFIX/bin/minql" && chmod +x "$PREFIX/bin/minql"
+     curl -sSL https://raw.githubusercontent.com/niiquell/NqlMiCommunity/refs/heads/main/NqlMiCommunity.py -o "$PREFIX/bin/minql" && chmod +x "$PREFIX/bin/minql"
      ```
 
 3. **Executar o Script**:
@@ -39,12 +39,12 @@ Script Python para automação de solicitações de desbloqueio de bootloader em
    - Ele tentará a solicitação automaticamente para cada conta no horário de pico até obter sucesso ou encontrar um erro definitivo.
 
 ## Sobre o Menu:
-     - Adicionar até 5 contas Xiaomi (opção 1).
-     - Remover contas (opção 2).
-     - Listar contas registradas (opção 3).
-     - Iniciar solicitações de desbloqueio (opção 4).
-   - Insira usuário e senha para cada conta, e o código de verificação, se solicitado.
-   - O script aguardará o horário de pico (23:57 CST, 12:57 BRT) para fazer as solicitações.
+  - Adicionar até 5 contas Xiaomi (opção 1).
+  - Remover contas (opção 2).
+  - Listar contas registradas (opção 3).
+  - Iniciar solicitações de desbloqueio (opção 4).
+  - Insira usuário e senha para cada conta, e o código de verificação, se solicitado.
+  - O script aguardará o horário de pico (23:57 CST, 12:57 BRT) para fazer as solicitações.
 
 ## Riscos
 - **Segurança**:
@@ -52,4 +52,4 @@ Script Python para automação de solicitações de desbloqueio de bootloader em
   - O uso de bots ou scripts automáticos pode ser contra as regras da Xiaomi.
 
 ## Créditos
-- [@Offici5l]([https://github.com/offici5l/MiCommunityTool) - Criador do script de inspiração que foi usado como base para o NqlMiCommunity.
+- [offici5l]([https://github.com/offici5l/MiCommunityTool) - Criador do script de inspiração que foi usado como base para o NqlMiCommunity.
