@@ -7,8 +7,7 @@ Script Python para automação de solicitações de desbloqueio de bootloader em
 - Verificação do status da conta (nível, pontos, dias registrados).
 - Solicitação automática de desbloqueio no horário de reset da cota diária (23:57 CST).
 - Sincronização de tempo com servidores NTP para precisão.
-- Interface em português brasileiro com mensagens claras.
-
+- 
 ## Requisitos
 - **Sistema**: Android com Termux instalado ou qualquer sistema com Python 3.6+.
 - **Dependências Python**:
@@ -25,18 +24,16 @@ Script Python para automação de solicitações de desbloqueio de bootloader em
 1. **Instalar o Termux** (se usar Android):
    - Baixe o Termux do [F-Droid](https://f-droid.org) ou [GitHub](https://github.com/termux/termux-app).
    - Atualize os pacotes: `pkg update && pkg upgrade`.
-   - Instale o Python: `pkg install python`.
+   - Instale o Python: `pkg install python3`.
 
 2. **Baixar o Script**:
    - No Termux, execute:
      ```bash
-     curl -sSL <URL_DO_REPOSITÓRIO>/raw/main/desbloqueio_xiaomi.py -o "$PREFIX/bin/desbloqueio" && chmod +x "$PREFIX/bin/desbloqueio"
+     curl -sSL <URL_DO_REPOSITÓRIO>/raw/main/NqlMiCommunity.py -o "$PREFIX/bin/nqlmi" && chmod +x "$PREFIX/bin/nqlmi"
      ```
-     Substitua `<URL_DO_REPOSITÓRIO>` pelo link do seu repositório (ex.: `https://github.com/seu_usuario/DesbloqueioXiaomi`).
-   - Isso cria o comando `desbloqueio` no Termux.
-
+     
 3. **Executar o Script**:
-   - Digite `desbloqueio` no Termux.
+   - Digite `nqlmi` no Termux.
    - Insira seu usuário e senha da conta Xiaomi.
    - Se solicitado, insira o código de verificação enviado ao e-mail.
    - O script aguardará o horário de pico (23:57 CST, 12:57 BRT) para fazer a solicitação.
@@ -57,9 +54,8 @@ Script Python para automação de solicitações de desbloqueio de bootloader em
   - Uso excessivo pode levar a bloqueios temporários ou permanentes da conta.
 
 ## Créditos
-- **Desenvolvedor**: [Seu Nome ou Pseudônimo] - Criador do script e adaptações para português brasileiro.
-- **Inspiração**: Baseado em práticas comuns de automação para desbloqueio de dispositivos Xiaomi, sem cópias diretas de outros projetos.
-- **Comunidade**: Agradecimentos à comunidade de desenvolvedores open-source por bibliotecas como `requests` e `ntplib`.
+@Offici5l pela base e todo o script
+@niiquell pela adaptação e tradução do script.
 
 ## Licença
 Este projeto está licenciado sob a [Licença MIT](LICENSE). Veja o arquivo `LICENSE` para detalhes.
